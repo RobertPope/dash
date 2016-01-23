@@ -56,7 +56,7 @@
         create: yes
       with_items:
         - '## Begin Dash Developer Environment ##'
-        - '\"/Users\" 192.168.99.100 -alldirs -mapall=0:80'
+        - '"/Users" 192.168.99.100 -alldirs -mapall=0:80'
         - '## End Dash Developer Environment ##'
       become: yes
       become_method: sudo
